@@ -1,256 +1,185 @@
-import React from "react";
 import { hero_icon } from "../icon";
 
-const cards = [
-  {
-    icon: "🛡️",
-    title: "Security Assurance",
-    text: "Demonstrates commitment to user data security through encryption and secure payment practices",
-  },
-  {
-    icon: "👨",
-    title: "Security Assurance",
-    text: "Demonstrates commitment to user data security through encryption and secure payment practices",
-  },
-  {
-    icon: "🏨",
-    title: "Security Assurance",
-    text: "Demonstrates commitment to user data security through encryption and secure payment practices",
-  },
-  {
-    icon: "💳",
-    title: "Security Assurance",
-    text: "Demonstrates commitment to user data security through encryption and secure payment practices",
-  },
-];
-
-const payments = [
-  "PayPal",
-  "stripe",
-  "Payoneer",
-  "VISA",
-  "Cash App",
-  "₿ bitcoin",
-  "DISCOVER",
-];
-
-function Features() {
-  const { rightwordarrow, security } = hero_icon;
+const Features = () => {
+  const { rightwordarrow } = hero_icon;
 
   return (
-    <section className="w-full bg-white lg:w-[90%] xl:w-[66%] px-6 md:px-9 lg:px-0 xl:px-0">
-      {/* Cards */}
-      <div
-        className="
-        mx-auto mt-10 grid 
-        grid-cols-1 gap-5 
-        sm:grid-cols-2 
-        md:mt-12 
-        lg:grid-cols-4 
-        xl:gap-7
-      "
-      >
-        {cards.map((card, index) => (
-          <div
-            key={index}
-            className={`
-              flex
-              flex-col items-center
-              justify-center
-              rounded-2xl
-              py-6
-              text-center
-
-              ${
-                index === 0
-                  ? "bg-[#E4F9F9]"
-                  : index === 1
-                    ? "bg-[#faf6f2]"
-                    : index === 2
-                      ? "bg-[#eef8fc]"
-                      : "bg-[#f6f5f7]"
-              }
-
-              transition duration-300
-              hover:-translate-y-1
-              hover:shadow-lg
-
-             
-            `}
-          >
-            {/* Icon */}
-            <div
-              className="
-              flex h-13 w-13
-              items-center justify-center
-              rounded-2xl bg-white
-               shadow-sm
-
-            
-            "
-            >
-              {card.icon}
-            </div>
-
-            {/* Title */}
-            <h3
-              className="
-              mt-4
-              text-[12px] font-bold text-[#000]
-              md:text-[14px]
-              xl:text-[15px]
-            "
-            >
-              {card.title}
-            </h3>
-
-            {/* Description */}
-            <p
-              className="
-              mt-2
-              text-sm leading-4
-              text-[#737373]
-              px-5
-              sm:text-[14px]
-              md:text-[12px]
-
-            "
-            >
-              {card.text}
-            </p>
-
-            {/* Learn More */}
-            <button
-              className="
-              mt-3
-              text-[11px] font-normal
-              text-[#000]
-              hover:text-blue-600
-              transition
-              tracking-wide
-              flex flex-row gap-1 
-            "
-            >
-              <span>Learn More</span>
-              <span className="">{rightwordarrow}</span>
-            </button>
+    <section className="w-full bg-white py-2 lg:w-[90%] xl:w-[66%] px-6 md:px-9 lg:px-0 xl:px-0">
+      {/* Security Cards */}
+      <div className="w-full mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-4">
+        {/* Card 1 */}
+        <div className="bg-[#E4F9F9] rounded-2xl flex flex-col gap-2 items-center justify-center text-center px-5 py-7">
+          <div className="w-14 h-14 bg-white rounded-2xl flex items-center justify-center shadow-sm">
+            <img
+              src="/img/security-logo/security.svg.png"
+              alt="Security"
+              className="w-7 h-7 object-contain"
+            />
           </div>
-        ))}
+
+          <h3 className="text-[17px] font-semibold text-gray-700">
+            Security Assurance
+          </h3>
+
+          <p className="text-[13px] leading-5 text-[#737373]">
+            Demonstrates commitment to user data security through encryption and
+            secure payment practices.
+          </p>
+
+          <button className="flex flex-row gap-1 items-center text-[12px] font-medium tracking-wide text-[#000]">
+            Learn More
+            <span className="text-black">{rightwordarrow}</span>
+          </button>
+        </div>
+
+        {/* Card 2 */}
+        <div className="bg-[#FCF2FA] rounded-2xl flex flex-col gap-2 items-center justify-center text-center px-5 py-7">
+          <div className="w-14 h-14 bg-white rounded-2xl flex items-center justify-center shadow-sm">
+            <img
+              src="/img/security-logo/Clip path group.png"
+              alt="Security"
+              className="w-7 h-7 object-contain"
+            />
+          </div>
+
+          <h3 className="text-[17px] font-semibold text-gray-700">
+            Security Assurance
+          </h3>
+
+          <p className="text-[13px] leading-5 text-[#737373]">
+            Demonstrates commitment to user data security through encryption and
+            secure payment practices.
+          </p>
+
+          <button className="flex flex-row gap-1 items-center text-[12px] font-medium tracking-wide text-[#000]">
+            Learn More
+            <span className="text-black">{rightwordarrow}</span>
+          </button>
+        </div>
+        {/* Card 3 */}
+        <div className="bg-[#E3F0FF] rounded-2xl flex flex-col gap-2 items-center justify-center text-center px-5 py-7">
+          <div className="w-14 h-14 bg-white rounded-2xl flex items-center justify-center shadow-sm">
+            <img
+              src="/img/security-logo/policy.svg.png"
+              alt="Security"
+              className="w-7 h-7 object-contain"
+            />
+          </div>
+
+          <h3 className="text-[17px] font-semibold text-gray-700">
+            Security Assurance
+          </h3>
+
+          <p className="text-[13px] leading-5 text-[#737373]">
+            Demonstrates commitment to user data security through encryption and
+            secure payment practices.
+          </p>
+
+          <button className="flex flex-row gap-1 items-center text-[12px] font-medium tracking-wide text-[#000]">
+            Learn More
+            <span className="text-black">{rightwordarrow}</span>
+          </button>
+        </div>
+        {/* Card 4 */}
+        <div className="bg-[#F6F3FC] rounded-2xl flex flex-col gap-2 items-center justify-center text-center px-5 py-7">
+          <div className="w-14 h-14 bg-white rounded-2xl flex items-center justify-center shadow-sm">
+            <img
+              src="/img/security-logo/repu.svg.png"
+              alt="Security"
+              className="w-7 h-7 object-contain"
+            />
+          </div>
+
+          <h3 className="text-[17px] font-semibold text-gray-700">
+            Security Assurance
+          </h3>
+
+          <p className="text-[13px] leading-5 text-[#737373]">
+            Demonstrates commitment to user data security through encryption and
+            secure payment practices.
+          </p>
+
+          <button className="flex flex-row gap-1 items-center text-[12px] font-medium tracking-wide text-[#000]">
+            Learn More
+            <span className="text-black">{rightwordarrow}</span>
+          </button>
+        </div>
       </div>
 
       {/* Payment Logos */}
-      <div
-        className="
-        mx-auto mt-12
-        flex max-w-7xl
-        flex-wrap
-        items-center
-        justify-center
-        gap-x-8 gap-y-7
-        px-4
-        sm:mt-14
-        sm:gap-x-10
-        sm:px-6
-        md:gap-x-12
-        lg:mt-16
-        lg:justify-between
-        lg:px-8
-        xl:gap-x-14
-        2xl:max-w-[1500px]
-      "
-      >
-        {/* PayPal */}
-        <span
+      {/* Payment Logos */}
+      <div className="w-full mt-5 md:mt-9 2xl:mt-13">
+        <div
           className="
-          text-sm font-bold italic
-          text-[#0070ba]
-          sm:text-xl
-        "
+    grid
+    grid-cols-2
+    sm:grid-cols-3
+    md:grid-cols-4
+    lg:grid-cols-7
+    items-center
+    justify-items-center
+    gap-x-6
+    gap-y-8
+    sm:gap-x-8
+    sm:gap-y-10
+    md:gap-x-10
+    lg:gap-x-4
+    xl:gap-x-6
+    2xl:gap-x-6
+  "
         >
-          PayPal
-        </span>
-        {/* Stripe */}
-        <span
-          className="
-          text-3xl font-bold
-          text-[#635bff]
-          sm:text-4xl
-        "
-        >
-          stripe
-        </span>
+          {/* PayPal */}
+          <img
+            src="/img/security-logo/21 → paypal.png.png"
+            alt="PayPal"
+            className="w-[85px]  h-auto object-contain"
+          />
 
-        {/* Payoneer */}
-        <span
-          className="
-          text-xl font-semibold
-          text-gray-700
-          sm:text-2xl
-        "
-        >
-          <span className="text-orange-400">○</span>
-          Payoneer
-        </span>
+          {/* Stripe */}
+          <img
+            src="/img/security-logo/21 → stripe.png.png"
+            alt="Stripe"
+            className="w-[65px] object-contain"
+          />
 
-        {/* Visa */}
-        <span
-          className="
-          text-2xl font-black italic
-          text-[#1a4b9b]
-          sm:text-3xl
-        "
-        >
-          VISA
-          <span className="text-orange-500">●</span>
-        </span>
+          {/* Payoneer */}
+          <img
+            src="/img/security-logo/21 → payoneer.png.png"
+            alt="Payoneer"
+            className="w-[80px] sm:w-[90px] md:w-[100px] lg:w-[110px] xl:w-[115px] 2xl:w-[120px] h-auto object-contain"
+          />
 
-        {/* Cash App */}
-        <span
-          className="
-          flex items-center gap-1
-          text-lg font-semibold
-          text-gray-700
-          sm:text-xl
-        "
-        >
-          <span
-            className="
-            flex h-7 w-7
-            items-center justify-center
-            rounded-md bg-green-500
-            text-white
-          "
-          >
-            $
-          </span>
-          Cash App
-        </span>
+          {/* Visa */}
+          <img
+            src="/img/security-logo/21 → visa.png.png"
+            alt="Visa Mastercard"
+            className="w-[85px] h-auto object-contain"
+          />
 
-        {/* Bitcoin */}
-        <span
-          className="
-          text-xl font-semibold
-          text-gray-700
-          sm:text-2xl
-        "
-        >
-          <span className="text-orange-500">₿</span>
-          bitcoin
-        </span>
+          {/* Cash App */}
+          <img
+            src="/img/security-logo/21 → cashapp.png.png"
+            alt="Cash App"
+            className="w-[80px] sm:w-[90px] md:w-[100px] lg:w-[110px] xl:w-[115px] 2xl:w-[120px] h-auto object-contain"
+          />
 
-        {/* Discover */}
-        <span
-          className="
-          text-lg font-bold
-          text-gray-700
-          sm:text-xl
-        "
-        >
-          DISC<span className="text-orange-500">O</span>VER
-        </span>
+          {/* Bitcoin */}
+          <img
+            src="/img/security-logo/21 → bitcoin.png.png"
+            alt="Bitcoin"
+            className="w-[80px] h-auto object-contain"
+          />
+
+          {/* Discover */}
+          <img
+            src="/img/security-logo/21 → discover.png.png"
+            alt="Discover"
+            className="w-[80px] h-auto object-contain"
+          />
+        </div>
       </div>
     </section>
   );
-}
+};
 
 export default Features;

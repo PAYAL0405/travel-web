@@ -86,11 +86,11 @@ const HomeMain = () => {
       </div>
 
       <TopRatedHotels />
-      <div className="flex xl:flex-row justify-center items-center pt-15 pb-20 ">
+      <div className="flex xl:flex-row justify-center items-center pt-15 pb-12 md:pb-20 ">
         <ImagesLayoutPage />
       </div>
       <WhyTravel />
-      <div className="flex xl:flex-row justify-center items-center pt-15 pb-20 ">
+      <div className="flex xl:flex-row justify-center items-center pt-10 md:pt-15 pb-0 md:pb-20 ">
         <Features />
       </div>
       <Footer />
