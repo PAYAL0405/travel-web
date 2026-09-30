@@ -1,0 +1,36 @@
+import React from "react";
+import { hero_icon } from "../icon";
+import HotelCards from "./HotelCards";
+
+const TopRatedHotels = () => {
+  const { rightwordarrow, leftwordarrow } = hero_icon;
+
+  return (
+    <div className="w-full bg-[#FFF0EC] flex flex-col justify-center items-center py-6">
+      <div className="w-full lg:w-[90%] xl:w-[66%] px-6 md:px-9 lg:px-0 xl:px-0  py-12 flex flex-row items-center justify-between pt-3 md:pt-12 xl:pt-15 pb-3 xl:pb-5 ">
+        <div className="flex flex-col gap-1 md:gap-2">
+          <h1 className="text-black text-sm md:text-2xl 2xl:text-5xl font-semibold md:font-bold tracking-wide">
+            Top Rated Hotels
+          </h1>
+          <h6 className="text-xs md:text-sm 2xl:text-[16px] font-extralight text-[#737373]">
+            Quality as judged by customers. Book at the ideal price!
+          </h6>
+        </div>
+        <div className="hidden md:flex flex-row items-center gap-1 md:gap-2 pt-1 md:pt-2 ">
+          <div className="flex flex-row items-center justify-center rounded-full p-1 bg-[#E4E6E8] w-[32px] h-[32px]">
+            <span className="text-black">{leftwordarrow}</span>
+          </div>
+          <div className="flex flex-row items-center justify-center rounded-full p-1 bg-[#E4E6E8] w-[32px] h-[32px]">
+            <span className="text-black">{rightwordarrow}</span>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-row gap-4 py-9">
+        <HotelCards />
+        <HotelCards />
+      </div>
+    </div>
+  );
+};
+
+export default TopRatedHotels;
