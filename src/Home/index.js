@@ -4,13 +4,14 @@ import Navbar from "../Common/Navbar";
 import Hero from "../Common/Hero";
 import Heading from "../Common/Heading";
 import ServiceCard from "../Common/ServiceCard";
-import CategoriesHeadline from "./CategoriesHeadline";
+import CategoriesHeadline from "../Common/CategoriesHeadline";
 import CategoriesCard from "./CategoriesCard";
 import PromoCards from "./PromoCards";
 import TopRatedHotels from "./TopRatedHotels";
 import ImagesLayoutPage from "./ImagesLayoutPage";
 import WhyTravel from "./WhyTravel";
 import Features from "./Features";
+import TravelingNews from "./TravelingNews";
 import Footer from "../Common/Footer";
 
 const HomeMain = () => {
@@ -45,7 +46,11 @@ const HomeMain = () => {
             price="$17.32"
           />
         </div>
-        <CategoriesHeadline />
+        <CategoriesHeadline
+          header="Top Categories of Tours"
+          dis="Favorite destinations based on customer reviews"
+          button="View More"
+        />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 2xl:gap-4 justify-center items-center w-full lg:w-[90%] xl:w-[66%] px-6 md:px-9 lg:px-0 xl:px-0">
           <CategoriesCard
             image="/img/cards-img/categories-card-img-1.png"
@@ -90,9 +95,20 @@ const HomeMain = () => {
         <ImagesLayoutPage />
       </div>
       <WhyTravel />
-      <div className="flex xl:flex-row justify-center items-center pt-10 md:pt-15 pb-0 md:pb-20 ">
+      <div className="flex xl:flex-row justify-center items-center pt-10 md:pt-15 pb-0 ">
         <Features />
       </div>
+      <div className="flex xl:flex-row justify-center items-center">
+        <CategoriesHeadline
+          header="News, Tips & Guides"
+          dis="Favorite destinations based on customer reviews"
+          button="View More"
+        />
+      </div>
+      <div className=" flex flex-row justify-center items-center pt-10 md:pt-15 pb-0 md:pb-20">
+        <TravelingNews />
+      </div>
+
       <Footer />
     </div>
   );

@@ -2,7 +2,7 @@ import React from "react";
 import { hero_icon } from "../icon";
 
 const HotelCards = () => {
-  const { profile, location } = hero_icon;
+  const { location } = hero_icon;
 
   return (
     <div className="overflow-hidden rounded-[22px] bg-white ">
