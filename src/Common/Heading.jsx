@@ -5,7 +5,7 @@ const Heading = () => {
   const { downwordarrow } = hero_icon;
 
   return (
-    <div className="w-full lg:w-[90%] xl:w-[66%] px-6 md:px-9 lg:px-0 xl:px-0 flex flex-row items-center justify-between pt-5 md:pt-12 xl:pt-15 pb-3 xl:pb-5">
+    <div className="w-full xl:w-[90%] lg:w-[85%] 2xl:w-[66%] px-6 md:px-9 lg:px-0 xl:px-0 flex flex-row items-center justify-between pt-5 md:pt-12 xl:pt-15 2xl:pt-20 pb-3 xl:pb-5">
       <div className="flex flex-col gap-1 md:gap-2">
         <h1 className="text-black text-sm md:text-2xl 2xl:text-5xl font-semibold md:font-bold tracking-wide">
           Our Featured Tours

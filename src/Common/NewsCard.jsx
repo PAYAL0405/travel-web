@@ -1,7 +1,7 @@
 import React from "react";
 import { hero_icon } from "../icon";
 
-const NewsCard = ({ img, dur, newsheading, news }) => {
+const NewsCard = ({ img, newsheading, news }) => {
   const { location, clock, profile } = hero_icon;
 
   return (

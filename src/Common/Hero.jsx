@@ -15,10 +15,10 @@ const Hero = () => {
   return (
     <div className="w-full h-full flex flex-col justify-start md:justify-center md:items-center">
       {/* Description */}
-      <section className="relative w-full sm:h-[50vh] lg:h-[60vh] xl:h-[85vh] overflow-hidden flex flex-row gap-5 xl:justify-center">
+      <section className="relative w-full sm:h-[85vh] overflow-hidden flex flex-row gap-5 xl:justify-center">
         <div className="w-full xl:w-[82%] h-full absolute z-10 flex flex-row px-4 xl:px-0 gap-5 mx-auto xl:justify-center">
-          <div className="w-full xl:w-[60%] flex flex-col gap-3 md:gap-3 2xl:gap-5 px-4 md:px-15 pt-15 md:pt-20 xl:pt-27 2xl:px-4">
-            <button className="bg-[#FEFA17] py-3 md:py-3 px-3 md:px-5 text-xs text-black font-semibold rounded-3xl w-[150px] md:w-[180px]">
+          <div className="w-full lg:w-[90%] xl:w-[60%] 2xl:w-[60%] flex flex-col gap-3 md:gap-3 2xl:gap-5 px-4 md:px-15 pt-18 sm:pt-25 md:pt-27 2xl:px-4">
+            <button className="bg-[#FEFA17] py-3 md:py-3 2xl:py-3.5 px-3 md:px-5 text-xs text-black font-semibold rounded-3xl w-[150px] md:w-[165px]">
               Discovery the World
             </button>
             <h1 className="text-black text-sm md:text-2xl 2xl:text-5xl font-semibold md:font-bold tracking-wide">
@@ -29,7 +29,7 @@ const Hero = () => {
               Your Wanderlust: Seamless Travel, Extraordinary Adventures
             </p>
 
-            <div className="hidden md:flex flex-row items-center gap-1 md:gap-2 pt-1 md:pt-2 ">
+            <div className="hidden md:flex flex-row items-center gap-1 md:gap-2  md:pt-15 lg:pt-9 2xl:pt-18 ">
               <div className="flex flex-row items-center justify-center rounded-full p-1 bg-[#E4E6E8] w-[32px] h-[32px]">
                 <span className="text-black">{leftwordarrow}</span>
               </div>
@@ -39,7 +39,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="hidden 2xl:flex flex-col gap-2 w-[20%] 2xl:pt-1 2xl:pl-10 ">
+          <div className="hidden 2xl:flex flex-col gap-2 w-[20%] 2xl:pt-12 2xl:pl-10 ">
             <div>
               <img
                 src="img/travling-img.png"
@@ -68,11 +68,11 @@ const Hero = () => {
         <img
           src="img/bg-img.png"
           alt=""
-          className="p-4 xl:p-0 overflow-hidden h-[350] md:h-[500] xl:h-full xl:w-full mx-auto object-cover xl:object-none rounded-4xl xl:rounded-none"
+          className="p-4 xl:p-0 overflow-hidden h-[350] md:h-full lg:h-full w-full mx-auto object-cover  rounded-4xl xl:rounded-none"
         />
       </section>
       {/* search area  */}
-      <div className="hidden md:block relative w-[90%] 2xl:w-[66%] border-black bg-white -mt-[40%] md:-mt-[15%] lg:-mt-[40%] xl:-mt-[20%] 2xl:-mt-[8%] z-0 shadow-2xl h-[200px] rounded-xl">
+      <div className="hidden lg:block relative xl:w-[90%] lg:w-[85%] 2xl:w-[66%] border-black bg-white -mt-[10%] xl:-mt-[7%] 2xl:-mt-[5%] z-0 shadow-2xl h-[200px] rounded-xl">
         <div className="flex flex-col gap-10 2xl:gap-6 p-3 2xl:p-6">
           <div className="flex flex-row justify-between">
             <div className="flex flex-row gap-4">

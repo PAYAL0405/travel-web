@@ -10,17 +10,21 @@ const Navbar = ({ open }) => {
     <div className="w-full flex flex-row items-center md:gap-10 2xl:gap-35 px-5 md:px-10 2xl:px-12 pt-3 xl:p-2 ">
       {/* //Navebar// */}
       <div className="w-full flex flex-row items-center justify-between gap-2">
-        <div className="rounded-full bg-[#FEFA17]">
-          <span>{coconuttree}</span>
+        <div className="flex flex-row justify-center items-center gap-2 ">
+          <div className="rounded-full bg-[#FEFA17]">
+            <span>{coconuttree}</span>
+          </div>
+
+          <h1 className="font-bold text-md tracking-wide text-[#000000]">
+            Travila{" "}
+          </h1>
         </div>
 
-        <h1 className="font-bold text-md tracking-wide text-[#000000]">
-          Travila{" "}
-        </h1>
         <div className="xl:hidden block ml-auto text-black">
           <span>{menu2}</span>
         </div>
       </div>
+
       {/* //Navebar// */}
 
       <div className="hidden xl:flex flex-row gap-2 2xl:gap-6">
@@ -106,15 +110,12 @@ const Navbar = ({ open }) => {
 
       {/* Menu Button  */}
       <div className="rounded-md p-1 w-full fixed  flex justify-end">
-        {isShow && (
+        {/* {isShow && (
           <button
             onClick={() => setIsShow(!isShow)}
             className="text-white rounded-sm bg-black border border-black h-10 w-10 p-4"
           ></button>
-        )}
-        <button className=" rounded-full bg-black text-dark-2 flex-center text-xl block 2xl:hidden ">
-          {menu}
-        </button>
+        )} */}
       </div>
     </div>
   );

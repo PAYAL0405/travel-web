@@ -35,8 +35,8 @@ export const hero_icon = {
   coconuttree: (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="34"
-      height="32"
+      width="30"
+      height="30"
       viewBox="0 0 35 34"
       fill="none"
     >

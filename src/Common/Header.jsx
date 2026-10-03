@@ -15,8 +15,8 @@ const Header = () => {
             Extraordinary Experiences
           </p>
         </div>
-        <div className="flex flex-row gap-2 items-center justify-center">
-          <h1 className="font-400 text-[#F09814] text-[6px] md:text-[12px]">
+        <div className="flex flex-row gap-1 items-center justify-center">
+          <h1 className="font-extralight text-[#F09814] tracking-wide text-[6px] md:text-[10px]">
             Get This Now{" "}
           </h1>
           <span className="hidden md:flex">{arrow}</span>
