@@ -1,7 +1,7 @@
 import { hero_icon } from "../icon";
 
 const ServiceCard = ({ images, offers, heading, duration, price }) => {
-  const { profile, clock } = hero_icon;
+  const { profile, clock, like } = hero_icon;
 
   return (
     <div className=" overflow-hidden rounded-[22px] bg-white">
@@ -19,9 +19,9 @@ const ServiceCard = ({ images, offers, heading, duration, price }) => {
         </div>
 
         {/* Heart */}
-        <button className="absolute right-6 top-6  h-6 w-6 text-center flex flex-row items-center justify-center rounded-full bg-white text-xl sm:text-2xl text-gray-700">
-          ♡
-        </button>
+        <span className="absolute right-6 top-6  h-7 w-7 text-center flex flex-row items-center justify-center rounded-full bg-white text-xl sm:text-2xl text-gray-700">
+          {like}
+        </span>
       </div>
 
       {/* WHITE OVERLAY CONTENT */}

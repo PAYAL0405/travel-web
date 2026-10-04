@@ -86,7 +86,7 @@ const HomeMain = () => {
           />
         </div>
       </div>
-      <div className=" flex flex-row justify-center items-center pt-16 pb-24 ">
+      <div className=" flex flex-row justify-center items-center pt-16 pb-15 sm:pb-24 ">
         <PromoCards />
       </div>
 
@@ -98,7 +98,7 @@ const HomeMain = () => {
       <div className="flex xl:flex-row justify-center items-center pt-10 md:pt-15 pb-0 ">
         <Features />
       </div>
-      <div className="flex xl:flex-row justify-center items-center">
+      <div className="flex xl:flex-row justify-center items-center ">
         <CategoriesHeadline
           header="News, Tips & Guides"
           dis="Favorite destinations based on customer reviews"

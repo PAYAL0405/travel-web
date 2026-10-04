@@ -2,15 +2,8 @@ import React from "react";
 import { hero_icon } from "../icon";
 
 const Hero = () => {
-  const {
-    arrow,
-    leftwordarrow,
-    rightwordarrow,
-    profile,
-    location,
-    dower,
-    search,
-  } = hero_icon;
+  const { leftwordarrow, rightwordarrow, profile, location, dower, search } =
+    hero_icon;
 
   return (
     <div className="w-full h-full flex flex-col justify-start md:justify-center md:items-center">
@@ -29,7 +22,7 @@ const Hero = () => {
               Your Wanderlust: Seamless Travel, Extraordinary Adventures
             </p>
 
-            <div className="hidden md:flex flex-row items-center gap-1 md:gap-2  md:pt-15 lg:pt-9 2xl:pt-18 ">
+            <div className="hidden md:flex flex-row items-center gap-1 md:gap-2 md:pt-15 lg:pt-9 2xl:pt-18 ">
               <div className="flex flex-row items-center justify-center rounded-full p-1 bg-[#E4E6E8] w-[32px] h-[32px]">
                 <span className="text-black">{leftwordarrow}</span>
               </div>
@@ -39,7 +32,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="hidden 2xl:flex flex-col gap-2 w-[20%] 2xl:pt-12 2xl:pl-10 ">
+          <div className="hidden 2xl:flex flex-col gap-2 w-[20%] 2xl:pt-12 2xl:pl-10">
             <div>
               <img
                 src="img/travling-img.png"

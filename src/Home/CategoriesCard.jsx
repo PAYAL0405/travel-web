@@ -5,7 +5,7 @@ const CategoriesCard = ({ image, placename }) => {
   const { rightwordarrow } = hero_icon;
 
   return (
-    <div className="w-full border border-gray-100 shadow-sm bg-[#fff] flex flex-col gap-2 2xl:gap-8 p-3 h-[240px]  md:h-[230px] lg:h-[180px] 2xl:h-[200px] rounded-3xl">
+    <div className="w-full border border-gray-100 shadow-sm bg-[#fff] flex flex-col gap-2 2xl:gap-8 p-3 h-auto lg:h-[180px] 2xl:h-[200px] rounded-3xl">
       <div className="w-full h-full 2xl:h-[50%]">
         <img
           src={image}
