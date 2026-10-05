@@ -8,10 +8,10 @@ const Footer = () => {
     <footer className="w-full bg-[#050505] text-white flex flex-col justify-center items-center ">
       {/* Newsletter Section */}
       <div className="flex flex-col  border-b border-white/10 w-full lg:w-[90%] xl:w-[66%] px-6 md:px-9 lg:px-0 xl:px-0">
-        <div className="w-full flex flex-col lg:flex-row 2xl:justify-between py-8 ">
+        <div className="w-full flex flex-col gap-2 sm:gap-0 lg:flex-row 2xl:justify-between py-8">
           {/* Heading */}
           <div className="w-full ">
-            <h2 className="text-[18px] font-bold leading-snug sm:text-[21px] tracking-wide">
+            <h2 className="text-[16px] sm:text-[18px] font-bold leading-snug lg:text-[21px] tracking-wide">
               Subscribe to see secret deals prices
               <br className="hidden sm:block" />
               drop the moment you sign up!
@@ -19,7 +19,7 @@ const Footer = () => {
           </div>
           {/* Subscribe Form */}
           <div className="flex w-full flex-col items-center gap-2 sm:flex-row ">
-            <div className="relative flex flex-row items-center justify-center ml-auto">
+            <div className="relative flex flex-row items-center justify-center sm:ml-auto">
               <span className="w-auto absolute left-4 top-1/2 -translate-y-1/2 text-gray-400">
                 {email}
               </span>
@@ -27,12 +27,12 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="rounded-full border border-white/20 bg-transparent px-10 py-3 text-[12px] text-white outline-none placeholder:text-gray-500 focus:border-yellow-400"
+                className="rounded-full border border-white/20 bg-transparent px-17 sm:px-10 py-3 text-[12px] text-white outline-none placeholder:text-gray-500 focus:border-yellow-400"
               />
             </div>
             <button
               type="submit"
-              className="h-12 rounded-full bg-[#FEFA17] px-4 text-[12px] font-semibold text-black transition hover:bg-[#ffe77c]"
+              className="py-3 rounded-full bg-[#FEFA17] w-[90%] sm:w-auto sm:px-4 text-[12px] font-semibold text-black transition hover:bg-[#ffe77c]"
             >
               Subscribe
             </button>
@@ -164,13 +164,6 @@ const Footer = () => {
 
           <div>
             <p className="mb-2 text-[14px] text-white">Follow us</p>
-
-            <div className="flex gap-3">
-              <SocialIcon>f</SocialIcon>
-              <SocialIcon>𝕏</SocialIcon>
-              <SocialIcon>in</SocialIcon>
-              <SocialIcon>◎</SocialIcon>
-            </div>
           </div>
         </div>
       </div>

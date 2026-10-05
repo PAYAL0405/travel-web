@@ -16,7 +16,7 @@ import Footer from "../Common/Footer";
 
 const HomeMain = () => {
   return (
-    <div className="w-full">
+    <div className="w-full flex flex-col">
       <Header />
       <Navbar />
       <Hero />
@@ -46,11 +46,14 @@ const HomeMain = () => {
             price="$17.32"
           />
         </div>
-        <CategoriesHeadline
-          header="Top Categories of Tours"
-          dis="Favorite destinations based on customer reviews"
-          button="View More"
-        />
+        <div className="w-full flex flex-row justify-center items-center">
+          <CategoriesHeadline
+            header="Top Categories of Tours"
+            dis="Favorite destinations based on customer reviews"
+            button="View More"
+          />
+        </div>
+
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 2xl:gap-4 justify-center items-center w-full lg:w-[90%] xl:w-[66%] px-6 md:px-9 lg:px-0 xl:px-0">
           <CategoriesCard
             image="/img/cards-img/categories-card-img-1.png"
@@ -94,11 +97,14 @@ const HomeMain = () => {
       <div className="flex xl:flex-row justify-center items-center pt-15 pb-12 md:pb-20 ">
         <ImagesLayoutPage />
       </div>
-      <WhyTravel />
+      <div className="w-full flex flex-row justify-center items-center">
+        <WhyTravel />
+      </div>
+
       <div className="flex xl:flex-row justify-center items-center pt-10 md:pt-15 pb-0 ">
         <Features />
       </div>
-      <div className="flex xl:flex-row justify-center items-center ">
+      <div className="w-full flex flex-row justify-center items-center">
         <CategoriesHeadline
           header="News, Tips & Guides"
           dis="Favorite destinations based on customer reviews"
