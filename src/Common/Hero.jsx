@@ -146,9 +146,8 @@ const Hero = () => {
                 xl:h-[110px]
                 2xl:h-[125px]
                 object-cover
-                rounded-xl
-                border-3
-                border-white/80
+                rounded-xl border-3
+ border-white/80
               "
               />
 
@@ -188,20 +187,7 @@ const Hero = () => {
 
       {/* ================= SEARCH CARD ================= */}
       {/* SEARCH AREA */}
-      <div
-        className="flex flex-col gap-4 relative
-          z-50
-          w-[90%] xl:w-[66%]
-          mx-auto
-          bg-white
-          rounded-xl
-          shadow
-          p-4
-          sm:p-5
-          -mt-3
-          sm:-mt-8
-          xl:-mt-28 bg-white rounded-2xl py-2 shadow-sm"
-      >
+      <div className="flex flex-col gap-4 relative z-50 w-[90%] xl:w-[66%] mx-auto  bg-white  rounded-xl shadow p-4 sm:p-5 -mt-3 sm:-mt-8 xl:-mt-28 bg-white rounded-2xl py-2 shadow-sm">
         {/* TOP */}
         <div className="flex items-center justify-between ">
           <div className="flex items-center gap-3 sm:gap-7 over flow-x-auto">
@@ -214,7 +200,6 @@ const Hero = () => {
             <button className="text-[10px] 2xl:text-[11px] text-[#000000] tracking-wide">
               Tickets
             </button>
-
             <button className="text-[10px] 2xl:text-[11px] text-[#000000] tracking-wide">
               Rental
             </button>
@@ -231,13 +216,7 @@ const Hero = () => {
 
         {/* SEARCH ROW */}
         <div className="border border-[#E4E6E8] rounded-2xl p-2">
-          <div
-            className="grid grid-cols-1
-      sm:grid-cols-2
-      lg:grid-cols-[1.2fr_1fr_1fr_1.1fr_auto]
-      items-center
-    "
-          >
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1.2fr_1fr_1fr_1.1fr_auto] items-center">
             {/* LOCATION */}
             <div className="px-3 py-3 lg:border-r border-[#E4E6E8]">
               <p className="text-[10px] font-bold text-[#737373] mb-1">
