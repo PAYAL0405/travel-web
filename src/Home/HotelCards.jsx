@@ -5,9 +5,9 @@ const HotelCards = ({ img, locations, price }) => {
   const { location, like, star } = hero_icon;
 
   return (
-    <div className="overflow-hidden rounded-[22px] bg-white ">
+    <div className="overflow-hidden rounded-[22px] bg-white w-[320px]">
       {/* IMAGE */}
-      <div className="relative h-[320px]">
+      <div className="relative h-[270px]">
         <img
           src={img}
           alt="Boat Cruise"

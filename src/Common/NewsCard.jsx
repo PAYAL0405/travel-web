@@ -26,7 +26,7 @@ const NewsCard = ({ img, newsheading, news }) => {
       </div>
 
       {/* WHITE OVERLAY CONTENT */}
-      <div className="relative z-10 -mt-10  rounded-[22px] bg-white px-7 pb-7 pt-7 border border-gray-100 border-b-0">
+      <div className="relative z-10 -mt-10  rounded-[22px] bg-white px-7 pb-7 pt-7 border border-gray-100 ">
         {/* Rating - overlaps image + white section */}
         {/* Details */}
         <div className="flex flex-row items-center  justify-between">

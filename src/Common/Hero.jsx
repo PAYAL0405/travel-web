@@ -76,19 +76,7 @@ const Hero = () => {
               </h1>
 
               {/* Description */}
-              <p
-                className="
-              mt-5
-              text-black
-              text-sm
-              sm:text-base
-              md:text-lg
-              lg:text-[17px]
-              xl:text-lg
-              leading-relaxed
-              max-w-[770px]
-            "
-              >
+              <p className="mt-5 text-black text-sm sm:text-base md:text-lg lg:text-[17px] xl:text-lg leading-relaxed max-w-[770px] tracking-wider">
                 Crafting Exceptional Journeys: Your Global Escape Planner.
                 Unleash Your Wanderlust. Seamless Travel, Extraordinary
                 Adventures
@@ -199,9 +187,9 @@ const Hero = () => {
       </section>
 
       {/* ================= SEARCH CARD ================= */}
+      {/* SEARCH AREA */}
       <div
-        className="
-          relative
+        className="flex flex-col gap-4 relative
           z-50
           w-[90%] xl:w-[66%]
           mx-auto
@@ -210,173 +198,138 @@ const Hero = () => {
           shadow
           p-4
           sm:p-5
-          md:p-6
           -mt-3
-          sm:-mt-16
-          xl:-mt-28
-        "
+          sm:-mt-8
+          xl:-mt-28 bg-white rounded-2xl py-2 shadow-sm"
       >
-        {/* ================= TABS ================= */}
-        <div
-          className="
-            flex
-            items-center
-            gap-1
-            sm:gap-4
-            overflow-x-auto
-            scrollbar-hide
-            pb-3
-          "
-        >
-          <button className="text-[10px] text-[#fff] tracking-wider px-4 py-2 bg-black rounded-3xl">
-            Tours
-          </button>
+        {/* TOP */}
+        <div className="flex items-center justify-between ">
+          <div className="flex items-center gap-3 sm:gap-7 over flow-x-auto">
+            <button className="bg-[#000] text-white rounded-full px-3 py-2 text-[10px] tracking-wider">
+              Tours
+            </button>
+            <button className="text-[10px] 2xl:text-[11px] text-[#000000] tracking-wide">
+              Hotels
+            </button>
+            <button className="text-[10px] 2xl:text-[11px] text-[#000000] tracking-wide">
+              Tickets
+            </button>
 
-          <span className="text-[11px] text-[#000000] tracking-wider">
-            Hotels
-          </span>
+            <button className="text-[10px] 2xl:text-[11px] text-[#000000] tracking-wide">
+              Rental
+            </button>
+            <button className="text-[10px] 2xl:text-[11px] text-[#000000] tracking-wide">
+              Activities
+            </button>
+          </div>
 
-          <span className="text-[11px] text-[#000000] tracking-wider">
-            Tickets
-          </span>
-
-          <span className="text-[11px] text-[#000000] tracking-wider">
-            Tickets
-          </span>
-
-          <span className="text-[11px] text-[#000000] tracking-wider">
-            Activities
-          </span>
-
-          <div className="hidden md:flex ml-auto items-center gap-1 text-[11px] text-[#737373] tracking-wide">
+          <div className="hidden md:flex items-center gap-1 text-xs text-[#737373] whitespace-nowrap">
             <span>{profile}</span>
             <span>Need some help?</span>
           </div>
         </div>
 
-        {/* ================= SEARCH FIELDS ================= */}
-        <div
-          className="
-            grid
-            grid-cols-1
-            sm:grid-cols-2
-            lg:grid-cols-[1.2fr_1fr_1fr_1fr_auto]
-            gap-3
-            md:gap-4
-            pt-4
-            border
-            border-[#E4E6E8]
-            rounded-xl
-          "
-        >
-          {/* Location */}
+        {/* SEARCH ROW */}
+        <div className="border border-[#E4E6E8] rounded-2xl p-2">
           <div
-            className="
-              p-3
-              sm:p-4
-              min-w-0
-             border-r
-             mb-2
-            "
+            className="grid grid-cols-1
+      sm:grid-cols-2
+      lg:grid-cols-[1.2fr_1fr_1fr_1.1fr_auto]
+      items-center
+    "
           >
-            <p className="text-[11px] text-[#737373] font-semibold">Location</p>
+            {/* LOCATION */}
+            <div className="px-3 py-3 lg:border-r border-[#E4E6E8]">
+              <p className="text-[10px] font-bold text-[#737373] mb-1">
+                Location
+              </p>
 
-            <div className="flex items-center gap-2 mt-2 min-w-0">
-              <span className="shrink-0">{location}</span>
+              <div className="flex items-center gap-2">
+                <span className="text-gray-400">{location}</span>
 
-              <span className="text-[11px] font-semibold text-[#000]">
-                New York, USA
-              </span>
+                <span className="text-[11px] font-semibold text-[#000]">
+                  New York, USA
+                </span>
 
-              <span className="pl-1">{dower}</span>
+                <span className="">{dower}</span>
+              </div>
+            </div>
+
+            {/* CHECK IN */}
+            <div className="px-3 sm:px-4 py-3 lg:border-r border-[#E4E6E8]">
+              <p className="text-[10px] font-bold text-[#737373] mb-1">
+                Check In
+              </p>
+
+              <div className="flex items-center gap-2">
+                <span className="text-gray-400">{location}</span>
+
+                <span className="text-[11px] font-semibold text-[#000]">
+                  02 January 2024
+                </span>
+
+                <span className="">{dower}</span>
+              </div>
+            </div>
+
+            {/* CHECK OUT */}
+            <div className="px-3 sm:px-4 py-3 lg:border-r border-[#E4E6E8]">
+              <p className="text-[10px] font-bold text-[#737373] mb-1">
+                Check Out
+              </p>
+
+              <div className="flex items-center gap-2">
+                <span className="text-gray-400">{location}</span>
+
+                <span className="text-[11px] font-semibold text-[#000]">
+                  02 January 2024
+                </span>
+
+                <span className="">{dower}</span>
+              </div>
+            </div>
+
+            {/* GUEST */}
+            <div className="px-3 sm:px-4 py-3 ">
+              <p className="text-[10px] font-bold text-[#737373] mb-1">Guest</p>
+
+              <div className="flex items-center gap-2">
+                <span className="text-gray-400">{profile}</span>
+
+                <span className="text-[11px] font-semibold text-[#000]">
+                  2 adults, 2 children
+                </span>
+
+                <span className="">{dower}</span>
+              </div>
+            </div>
+
+            {/* SEARCH BUTTON */}
+            <div className="px-3 sm:px-4 py-3">
+              <button
+                className="
+          w-full
+          lg:w-auto
+          bg-[#050505]
+          text-white
+          rounded-full
+          px-7
+          sm:px-6
+          py-3
+          flex
+          items-center
+          justify-center
+          gap-2
+          text-xs
+          sm:text-sm
+          whitespace-nowrap
+        "
+              >
+                <span>{search}</span>
+                <span>Search</span>
+              </button>
             </div>
           </div>
-
-          {/* Check In */}
-          <div
-            className="
-              p-3
-              sm:p-4
-              min-w-0
-            "
-          >
-            <p className="text-xs text-[#737373] font-semibold">Check In</p>
-
-            <div className="flex items-center gap-2 mt-2 min-w-0">
-              <span className="text-xs text-gray-500 shrink-0">📅</span>
-
-              <span className="text-xs sm:text-sm font-semibold truncate">
-                02 January 2024
-              </span>
-
-              <span className="ml-auto shrink-0">{dower}</span>
-            </div>
-          </div>
-
-          {/* Check Out */}
-          <div
-            className="
-              p-3
-              sm:p-4
-              min-w-0
-            "
-          >
-            <p className="text-xs text-[#737373] font-semibold">Check Out</p>
-
-            <div className="flex items-center gap-2 mt-2 min-w-0">
-              <span className="text-xs text-gray-500 shrink-0">📅</span>
-
-              <span className="text-xs sm:text-sm font-semibold truncate">
-                02 January 2024
-              </span>
-
-              <span className="ml-auto shrink-0">{dower}</span>
-            </div>
-          </div>
-
-          {/* Guest */}
-          <div
-            className="
-              p-3
-              sm:p-4
-              min-w-0
-            "
-          >
-            <p className="text-xs text-[#737373] font-semibold">Guest</p>
-
-            <div className="flex items-center gap-2 mt-2 min-w-0">
-              <span className="shrink-0">{profile}</span>
-
-              <span className="text-xs sm:text-sm font-semibold truncate">
-                2 adults, 2 children
-              </span>
-
-              <span className="ml-auto shrink-0">{dower}</span>
-            </div>
-          </div>
-
-          {/* Search */}
-          <button
-            className="
-              bg-black
-              text-white
-              rounded-3xl
-              px-6
-              py-3
-              sm:py-4
-              flex
-              items-center
-              justify-center
-              gap-2
-              text-[13px][#737373] font-semibold
-              transition
-              tracking-wider
-              h-[44px]
-            "
-          >
-            <span>{search}</span>
-            <span>Search</span>
-          </button>
         </div>
       </div>
     </div>
