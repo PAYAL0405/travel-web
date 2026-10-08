@@ -60,7 +60,7 @@ export const hero_icon = {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="8"
-      height="8"
+      height="7"
       viewBox="0 0 10 10"
       fill="none"
     >
@@ -87,8 +87,8 @@ export const hero_icon = {
   world: (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="16"
-      height="16"
+      width="15"
+      height="15"
       viewBox="0 0 20 20"
       fill="none"
     >
@@ -539,6 +539,118 @@ export const hero_icon = {
         stroke="#8E8E8E"
         stroke-width="2.25"
         stroke-linejoin="round"
+      />
+    </svg>
+  ),
+  blackdotes: (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+    >
+      <g clip-path="url(#clip0_1_2612)">
+        <g clip-path="url(#clip1_1_2612)">
+          <mask
+            id="mask0_1_2612"
+            style="mask-type:luminance"
+            maskUnits="userSpaceOnUse"
+            x="0"
+            y="0"
+            width="24"
+            height="24"
+          >
+            <path d="M24 0H0V24H24V0Z" fill="white" />
+          </mask>
+          <g mask="url(#mask0_1_2612)">
+            <path
+              d="M4 4H6V6H4V4Z"
+              stroke="black"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M4 18H6V20H4V18Z"
+              stroke="black"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M18 4H20V6H18V4Z"
+              stroke="black"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M18 11H20V13H18V11Z"
+              stroke="black"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M11 11H13V13H11V11Z"
+              stroke="black"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M4 11H6V13H4V11Z"
+              stroke="black"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M11 4H13V6H11V4Z"
+              stroke="black"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M11 18H13V20H11V18Z"
+              stroke="black"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M18 18H20V20H18V18Z"
+              stroke="black"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </g>
+        </g>
+      </g>
+      <defs>
+        <clipPath id="clip0_1_2612">
+          <rect width="24" height="24" fill="white" />
+        </clipPath>
+        <clipPath id="clip1_1_2612">
+          <rect width="24" height="24" fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
+  ),
+  star: (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="12"
+      height="12"
+      viewBox="0 0 14 13"
+      fill="none"
+    >
+      <path
+        d="M13.3566 4.84957C13.2689 4.5784 13.0284 4.38581 12.7438 4.36016L8.87869 4.00921L7.35031 0.431879C7.23761 0.169707 6.98096 0 6.6958 0C6.41064 0 6.15398 0.169707 6.04129 0.432492L4.51291 4.00921L0.647152 4.36016C0.363115 4.38642 0.123217 4.5784 0.0350431 4.84957C-0.0531308 5.12073 0.0282998 5.41815 0.243166 5.60563L3.16476 8.16789L2.30325 11.9629C2.24021 12.2419 2.34851 12.5303 2.58003 12.6977C2.70447 12.7876 2.85007 12.8334 2.99689 12.8334C3.12348 12.8334 3.24905 12.7992 3.36174 12.7318L6.6958 10.7392L10.0286 12.7318C10.2725 12.8785 10.5799 12.8651 10.811 12.6977C11.0426 12.5298 11.1508 12.2413 11.0877 11.9629L10.2262 8.16789L13.1478 5.60614C13.3627 5.41815 13.4447 5.12124 13.3566 4.84957Z"
+        fill="black"
       />
     </svg>
   ),

@@ -58,7 +58,11 @@ const TopRatedHotels = () => {
         className="w-full flex flex-row gap-4 overflow-x-auto scroll-smooth scrollbar-hide py-9 pl-6 pr-6 2xl:pl-[17%]"
       >
         <div className="flex-shrink-0 w-[85%] sm:w-[60%] md:w-[45%] lg:w-[30%] xl:w-[24%]">
-          <HotelCards />
+          <HotelCards
+            img="img/service-card-img-1.png"
+            locations="Manchester, England"
+            price="$48.25"
+          />
         </div>
 
         <div className="flex-shrink-0 w-[85%] sm:w-[60%] md:w-[45%] lg:w-[30%] xl:w-[24%]">

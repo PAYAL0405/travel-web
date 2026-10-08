@@ -6,156 +6,377 @@ const Hero = () => {
     hero_icon;
 
   return (
-    <div className="w-full h-full flex flex-col justify-start md:justify-center md:items-center">
-      {/* Description */}
-      <section className="relative w-full sm:h-[85vh] overflow-hidden flex flex-row gap-5 xl:justify-center">
-        <div className="w-full xl:w-[82%] h-full absolute z-10 flex flex-row px-4 xl:px-0 gap-5 mx-auto xl:justify-center">
-          <div className="w-full lg:w-[90%] xl:w-[60%] 2xl:w-[60%] flex flex-col gap-3 md:gap-3 2xl:gap-5 px-4 md:px-15 pt-18 sm:pt-25 md:pt-27 2xl:px-4">
-            <button className="bg-[#FEFA17] py-3 md:py-3 2xl:py-3.5 px-3 md:px-5 text-xs text-black font-semibold rounded-3xl w-[150px] md:w-[165px]">
-              Discovery the World
-            </button>
-            <h1 className="text-black text-sm md:text-2xl 2xl:text-5xl font-semibold md:font-bold tracking-wide">
-              Unleash Your Wanderlust <br /> Book Your Next Journey
-            </h1>
-            <p className="text-xs md:text-sm 2xl:text-xl font-light text-black">
-              Crafting Exceptional Journeys: Your Global Escape Planner. Unleash
-              Your Wanderlust: Seamless Travel, Extraordinary Adventures
-            </p>
+    <div className="w-full">
+      <section className="relative w-full h-auto xl:h-[85vh] overflow-hidden">
+        {/* ================= BACKGROUND ================= */}
+        <img
+          src="/img/bg-img.png"
+          alt="Travel Background"
+          className="absolute w-full h-full object-cover"
+        />
 
-            <div className="hidden md:flex flex-row items-center gap-1 md:gap-2 md:pt-15 lg:pt-9 2xl:pt-18 ">
-              <div className="flex flex-row items-center justify-center rounded-full p-1 bg-[#E4E6E8] w-[32px] h-[32px]">
-                <span className="text-black">{leftwordarrow}</span>
-              </div>
-              <div className="flex flex-row items-center justify-center rounded-full p-1 bg-[#E4E6E8] w-[32px] h-[32px]">
-                <span className="text-black">{rightwordarrow}</span>
-              </div>
-            </div>
-          </div>
+        {/* Light Overlay */}
+        <div className="absolute inset-0 bg-white/10" />
 
-          <div className="hidden 2xl:flex flex-col gap-2 w-[20%] 2xl:pt-12 2xl:pl-10">
-            <div>
-              <img
-                src="img/travling-img.png"
-                alt=""
-                className="overflow-hidden w-[200px] rounded-xl border border-white border-3 hover:border-[#FEFA17]"
-              />
+        {/* ================= MAIN CONTAINER ================= */}
+        <div className="relative z-10 w-full lg:w-[90%] xl:w-[66%] mx-auto">
+          {/* ================= HERO CONTENT ================= */}
+          <div
+            className="
+          flex
+          flex-col
+          lg:flex-row
+          justify-between
+          items-start
+        "
+          >
+            {/* ================= LEFT CONTENT ================= */}
+            <div
+              className="pt-[40px] sm:pt-[100px] lg:pt-[110px]
+              p-6
+              sm:p-10
+              lg:p-0
+          "
+            >
+              {/* Badge */}
+              <button
+                className="
+              bg-[#FEFA17]
+              text-black
+              px-4
+              py-3
+              rounded-full
+              text-[12px]
+              font-semibold
+            "
+              >
+                Discovery the World
+              </button>
+
+              {/* Heading */}
+              <h1
+                className="
+              mt-5
+              sm:mt-6
+              text-black
+              font-bold
+              leading-[1.08]
+              text-[25px]
+              sm:text-[30px]
+              md:text-[35px]
+              lg:text-[40px]
+              xl:text-[45px]
+              2xl:text-[53px]
+            
+            "
+              >
+                Unleash Your Wanderlust
+                <br className="hidden sm:block" />
+                Book Your Next Journey
+              </h1>
+
+              {/* Description */}
+              <p
+                className="
+              mt-5
+              text-black
+              text-sm
+              sm:text-base
+              md:text-lg
+              lg:text-[17px]
+              xl:text-lg
+              leading-relaxed
+              max-w-[770px]
+            "
+              >
+                Crafting Exceptional Journeys: Your Global Escape Planner.
+                Unleash Your Wanderlust. Seamless Travel, Extraordinary
+                Adventures
+              </p>
+
+              {/* ================= ARROWS ================= */}
+              <div className="flex items-center gap-2 mt-10 sm:mt-12 md:mt-20">
+                <button
+                  className="
+                w-7
+                h-7
+                sm:w-8
+                sm:h-8
+                rounded-full
+                bg-white/90
+                flex
+                items-center
+                justify-center
+                hover:bg-white
+                transition
+              "
+                >
+                  <span className="text-black">{leftwordarrow}</span>
+                </button>
+
+                <button
+                  className="
+                w-7
+                h-7
+                sm:w-8
+                sm:h-8
+                rounded-full
+                bg-white/90
+                flex
+                items-center
+                justify-center
+                hover:bg-white
+                transition
+              "
+                >
+                  <span className="text-black">{rightwordarrow}</span>
+                </button>
+              </div>
             </div>
-            <div>
+
+            {/* ================= RIGHT IMAGES ================= */}
+            <div
+              className="
+            hidden
+            lg:flex
+            flex-col
+            gap-3
+            w-[150px]
+            xl:w-[175px]
+            2xl:w-[195px]
+            pt-12
+            mr-2
+            xl:mr-0
+          "
+            >
               <img
-                src="img/travling-img.png"
-                alt=""
-                className="overflow-hidden w-[200px] rounded-xl border border-white border-3 hover:border-[#FEFA17]"
+                src="/img/travling-img.png"
+                alt="Travel"
+                className="
+                w-full
+                h-[100px]
+                xl:h-[110px]
+                2xl:h-[125px]
+                object-cover
+                rounded-xl
+                border-3
+                border-white/80
+              "
               />
-            </div>
-            <div>
+
               <img
-                src="img/travling-img.png"
-                alt=""
-                className="overflow-hidden w-[200px] rounded-xl border border-white border-3 hover:border-[#FEFA17]"
+                src="/img/travling-img.png"
+                alt="Travel"
+                className="
+                w-full
+                h-[100px]
+                xl:h-[110px]
+                2xl:h-[125px]
+                object-cover
+                rounded-xl
+                border-3
+                border-white/80
+              "
+              />
+
+              <img
+                src="/img/travling-img.png"
+                alt="Travel"
+                className="
+                w-full
+                h-[100px]
+                xl:h-[110px]
+                2xl:h-[125px]
+                object-cover
+                rounded-xl
+                border-3
+                border-white/80
+              "
               />
             </div>
           </div>
         </div>
-
-        {/* background image  */}
-        <img
-          src="img/bg-img.png"
-          alt=""
-          className="p-4 xl:p-0 overflow-hidden h-[350] md:h-full lg:h-full w-full mx-auto object-cover  rounded-4xl xl:rounded-none"
-        />
       </section>
-      {/* search area  */}
-      <div className="hidden lg:block relative xl:w-[90%] lg:w-[85%] 2xl:w-[66%] border-black bg-white -mt-[10%] xl:-mt-[7%] 2xl:-mt-[5%] z-0 shadow-2xl h-[200px] rounded-xl">
-        <div className="flex flex-col gap-10 2xl:gap-6 p-3 2xl:p-6">
-          <div className="flex flex-row justify-between">
-            <div className="flex flex-row gap-4">
-              <button className="bg-[#000] py-2 px-3 text-xs text-white font-normal rounded-3xl mx-auto">
-                Tours
-              </button>
-              <button className="hover:bg-[#000] p-2 text-xs text-black hover:text-white font-light rounded-3xl mx-auto">
-                Hotels
-              </button>
-              <button className="hover:bg-[#000] p-2 text-xs text-black hover:text-white font-light rounded-3xl mx-auto">
-                Tickets
-              </button>{" "}
-              <button className="hover:bg-[#000] p-2 text-xs text-black hover:text-white font-light rounded-3xl mx-auto">
-                Rental
-              </button>{" "}
-              <button className="hover:bg-[#000] p-2 text-xs text-black hover:text-white font-light rounded-3xl mx-auto">
-                Activities
-              </button>
-            </div>
 
-            <div className="flex flex-row gap-1 items-center">
-              <samp>{profile}</samp>
-              <p className="text-[#737373] text-xs font-normal">
-                Need some help?
-              </p>
+      {/* ================= SEARCH CARD ================= */}
+      <div
+        className="
+          relative
+          z-50
+          w-[90%] xl:w-[66%]
+          mx-auto
+          bg-white
+          rounded-xl
+          shadow
+          p-4
+          sm:p-5
+          md:p-6
+          -mt-3
+          sm:-mt-16
+          xl:-mt-28
+        "
+      >
+        {/* ================= TABS ================= */}
+        <div
+          className="
+            flex
+            items-center
+            gap-1
+            sm:gap-4
+            overflow-x-auto
+            scrollbar-hide
+            pb-3
+          "
+        >
+          <button className="text-[10px] text-[#fff] tracking-wider px-4 py-2 bg-black rounded-3xl">
+            Tours
+          </button>
+
+          <span className="text-[11px] text-[#000000] tracking-wider">
+            Hotels
+          </span>
+
+          <span className="text-[11px] text-[#000000] tracking-wider">
+            Tickets
+          </span>
+
+          <span className="text-[11px] text-[#000000] tracking-wider">
+            Tickets
+          </span>
+
+          <span className="text-[11px] text-[#000000] tracking-wider">
+            Activities
+          </span>
+
+          <div className="hidden md:flex ml-auto items-center gap-1 text-[11px] text-[#737373] tracking-wide">
+            <span>{profile}</span>
+            <span>Need some help?</span>
+          </div>
+        </div>
+
+        {/* ================= SEARCH FIELDS ================= */}
+        <div
+          className="
+            grid
+            grid-cols-1
+            sm:grid-cols-2
+            lg:grid-cols-[1.2fr_1fr_1fr_1fr_auto]
+            gap-3
+            md:gap-4
+            pt-4
+            border
+            border-[#E4E6E8]
+            rounded-xl
+          "
+        >
+          {/* Location */}
+          <div
+            className="
+              p-3
+              sm:p-4
+              min-w-0
+             border-r
+             mb-2
+            "
+          >
+            <p className="text-[11px] text-[#737373] font-semibold">Location</p>
+
+            <div className="flex items-center gap-2 mt-2 min-w-0">
+              <span className="shrink-0">{location}</span>
+
+              <span className="text-[11px] font-semibold text-[#000]">
+                New York, USA
+              </span>
+
+              <span className="pl-1">{dower}</span>
             </div>
           </div>
 
-          <div className="border border-[#E4E6E8] rounded-md p-3 2xl:p-5 flex flex-row justify-between gap-2 xl:gap-12">
-            <div className="flex flex-col gap-1 2xl:gap-2 border-r-2 pr-2 2xl:pr-6">
-              <span className="text-xs font-semibold text-[#737373]">
-                Location
+          {/* Check In */}
+          <div
+            className="
+              p-3
+              sm:p-4
+              min-w-0
+            "
+          >
+            <p className="text-xs text-[#737373] font-semibold">Check In</p>
+
+            <div className="flex items-center gap-2 mt-2 min-w-0">
+              <span className="text-xs text-gray-500 shrink-0">📅</span>
+
+              <span className="text-xs sm:text-sm font-semibold truncate">
+                02 January 2024
               </span>
-              <div className="flex flex-row items-center">
-                <span>{location}</span>
-                <div className="flex flex-row gap-1 2xl:gap-4 items-center">
-                  <span className="text-xs text-black font-semibold">
-                    New York, USA
-                  </span>
-                  <span>{dower}</span>
-                </div>
-              </div>
+
+              <span className="ml-auto shrink-0">{dower}</span>
             </div>
-            <div className="flex flex-col 2xl:gap-2 border-r-2 pr-1 2xl:pr-6">
-              <span className="text-xs font-semibold  text-[#737373]">
-                Check In
-              </span>
-              <div className="flex flex-row gap-1 items-center">
-                <span>{location}</span>
-                <div className="flex flex-row gap-1 2xl:gap-4 items-center">
-                  <span className="text-xs text-black font-semibold">
-                    New York, USA
-                  </span>
-                  <span>{dower}</span>
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-col gap-1 border-r-2 pr-1 2xl:pr-6">
-              <span className="text-xs font-semibold text-[#737373]">
-                Location
-              </span>
-              <div className="flex flex-row items-center">
-                <span>{location}</span>
-                <div className="flex flex-row  gap-1 2xl:gap-4 items-center">
-                  <span className="text-xs text-black font-semibold">
-                    New York, USA
-                  </span>
-                  <span>{dower}</span>
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-col gap-2 pr-2 2xl:pr-4">
-              <span className="text-xs font-semibold text-[#737373]">
-                Location
-              </span>
-              <div className="flex flex-row items-center">
-                <span>{location}</span>
-                <div className="flex flex-row gap-1 2xl:gap-4 items-center">
-                  <span className="text-xs text-black font-semibold">
-                    New York, USA
-                  </span>
-                  <span>{dower}</span>
-                </div>
-              </div>
-            </div>
-            <button className="flex flex-row gap-2 bg-black text-white rounded-3xl py-3 px-5 text-sm items-end">
-              <span>{search}</span>
-              Search
-            </button>
           </div>
+
+          {/* Check Out */}
+          <div
+            className="
+              p-3
+              sm:p-4
+              min-w-0
+            "
+          >
+            <p className="text-xs text-[#737373] font-semibold">Check Out</p>
+
+            <div className="flex items-center gap-2 mt-2 min-w-0">
+              <span className="text-xs text-gray-500 shrink-0">📅</span>
+
+              <span className="text-xs sm:text-sm font-semibold truncate">
+                02 January 2024
+              </span>
+
+              <span className="ml-auto shrink-0">{dower}</span>
+            </div>
+          </div>
+
+          {/* Guest */}
+          <div
+            className="
+              p-3
+              sm:p-4
+              min-w-0
+            "
+          >
+            <p className="text-xs text-[#737373] font-semibold">Guest</p>
+
+            <div className="flex items-center gap-2 mt-2 min-w-0">
+              <span className="shrink-0">{profile}</span>
+
+              <span className="text-xs sm:text-sm font-semibold truncate">
+                2 adults, 2 children
+              </span>
+
+              <span className="ml-auto shrink-0">{dower}</span>
+            </div>
+          </div>
+
+          {/* Search */}
+          <button
+            className="
+              bg-black
+              text-white
+              rounded-3xl
+              px-6
+              py-3
+              sm:py-4
+              flex
+              items-center
+              justify-center
+              gap-2
+              text-[13px][#737373] font-semibold
+              transition
+              tracking-wider
+              h-[44px]
+            "
+          >
+            <span>{search}</span>
+            <span>Search</span>
+          </button>
         </div>
       </div>
     </div>

@@ -1,23 +1,23 @@
 import React from "react";
 import { hero_icon } from "../icon";
 
-const HotelCards = () => {
-  const { location } = hero_icon;
+const HotelCards = ({ img, locations, price }) => {
+  const { location, like, star } = hero_icon;
 
   return (
     <div className="overflow-hidden rounded-[22px] bg-white ">
       {/* IMAGE */}
       <div className="relative h-[320px]">
         <img
-          src="/img/service-card-img-1.png"
+          src={img}
           alt="Boat Cruise"
           className="h-full w-full object-cover"
         />
 
         {/* Heart */}
-        <button className="absolute right-6 top-6  h-6 w-6 text-center flex flex-row items-center justify-center rounded-full bg-white text-xl sm:text-2xl text-gray-700">
-          ♡
-        </button>
+        <span className="absolute right-6 top-6  h-7 w-7 text-center flex flex-row items-center justify-center rounded-full bg-white text-xl sm:text-2xl text-gray-700">
+          {like}
+        </span>
       </div>
 
       {/* WHITE OVERLAY CONTENT */}
@@ -45,14 +45,16 @@ const HotelCards = () => {
           <div className="flex items-center gap-2">
             <span>{location}</span>
             <span className="text-[#737373] text-sm font-extralight text-wider">
-              kjkmk
+              {locations}
             </span>
           </div>
 
-          <div className="flex items-center gap-1">
-            <span className="text-[#737373] text-sm font-extralight text-wider">
-              4-6 guest
-            </span>
+          <div className="flex flex-row items-center gap-1">
+            <span>{star}</span>
+            <span>{star}</span>
+            <span>{star}</span>
+            <span>{star}</span>
+            <span>{star}</span>
           </div>
         </div>
 
@@ -61,7 +63,7 @@ const HotelCards = () => {
           {/* Price */}
           <div>
             <span className="text-[16px] sm:text-[19px] font-semibold text-wide text-[#000]">
-              kk
+              {price}
             </span>
             <span className="ml-2 text-[12px] font-light text-[#737373] text-wider">
               / person
