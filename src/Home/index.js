@@ -13,6 +13,8 @@ import WhyTravel from "./WhyTravel";
 import Features from "./Features";
 import TravelingNews from "./TravelingNews";
 import Footer from "../Common/Footer";
+import Testimonials from "./Testimonials";
+import RecentLaunchedCar from "./RecentLaunchedCar";
 
 const HomeMain = () => {
   return (
@@ -103,6 +105,10 @@ const HomeMain = () => {
 
       <div className="flex xl:flex-row justify-center items-center pt-10 md:pt-15 pb-0 ">
         <Features />
+      </div>
+      <RecentLaunchedCar />
+      <div className="flex flex-row items-center justify-center">
+        <Testimonials />
       </div>
       <div className="w-full flex flex-row justify-center items-center">
         <CategoriesHeadline

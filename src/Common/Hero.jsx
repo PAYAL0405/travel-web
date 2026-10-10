@@ -1,16 +1,20 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import { hero_icon } from "../icon";
 
 const Hero = () => {
   const { leftwordarrow, rightwordarrow, profile, location, dower, search } =
     hero_icon;
 
+  const [currentBg, setCurrentBg] = useState(0);
+
+  const backgrounds = ["/img/bg-img.png", "/img/flight-img.png"];
   return (
     <div className="w-full">
       <section className="relative w-full h-auto xl:h-[85vh] overflow-hidden">
         {/* ================= BACKGROUND ================= */}
         <img
-          src="/img/bg-img.png"
+          src={backgrounds[currentBg]}
           alt="Travel Background"
           className="absolute w-full h-full object-cover"
         />
@@ -78,46 +82,28 @@ const Hero = () => {
               {/* Description */}
               <p className="mt-5 text-black text-sm sm:text-base md:text-lg lg:text-[17px] xl:text-lg leading-relaxed max-w-[770px] tracking-wider">
                 Crafting Exceptional Journeys: Your Global Escape Planner.
-                Unleash Your Wanderlust. Seamless Travel, Extraordinary
+                Unleash Your Wanderlust: Seamless Travel, Extraordinary
                 Adventures
               </p>
 
               {/* ================= ARROWS ================= */}
               <div className="flex items-center gap-2 mt-10 sm:mt-12 md:mt-20">
                 <button
-                  className="
-                w-7
-                h-7
-                sm:w-8
-                sm:h-8
-                rounded-full
-                bg-white/90
-                flex
-                items-center
-                justify-center
-                hover:bg-white
-                transition
-              "
+                  className="bg-[#fff] rounded-full p-2"
+                  onClick={() => {
+                    setCurrentBg((prev) => (prev === 0 ? 1 : 0));
+                  }}
                 >
-                  <span className="text-black">{leftwordarrow}</span>
+                  <span>{leftwordarrow}</span>
                 </button>
 
                 <button
-                  className="
-                w-7
-                h-7
-                sm:w-8
-                sm:h-8
-                rounded-full
-                bg-white/90
-                flex
-                items-center
-                justify-center
-                hover:bg-white
-                transition
-              "
+                  className="bg-[#fff] rounded-full p-2"
+                  onClick={() => {
+                    setCurrentBg((prev) => (prev === 0 ? 1 : 0));
+                  }}
                 >
-                  <span className="text-black">{rightwordarrow}</span>
+                  <span>{rightwordarrow}</span>
                 </button>
               </div>
             </div>
@@ -187,7 +173,7 @@ const Hero = () => {
 
       {/* ================= SEARCH CARD ================= */}
       {/* SEARCH AREA */}
-      <div className="flex flex-col gap-4 relative z-50 w-[90%] xl:w-[66%] mx-auto  bg-white  rounded-xl shadow p-4 sm:p-5 -mt-3 sm:-mt-8 xl:-mt-28 bg-white rounded-2xl py-2 shadow-sm">
+      <div className="flex flex-col gap-4 relative z-50 w-[90%] xl:w-[66%] mx-auto  bg-white  rounded-xl shadow p-4 sm:p-5 -mt-3 sm:-mt-8 xl:-mt-25 bg-white rounded-2xl py-2 shadow-sm">
         {/* TOP */}
         <div className="flex items-center justify-between ">
           <div className="flex items-center gap-3 sm:gap-7 over flow-x-auto">

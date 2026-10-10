@@ -545,99 +545,74 @@ export const hero_icon = {
   blackdotes: (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
+      width="15"
+      height="15"
+      viewBox="0 0 18 18"
       fill="none"
     >
-      <g clip-path="url(#clip0_1_2612)">
-        <g clip-path="url(#clip1_1_2612)">
-          <mask
-            id="mask0_1_2612"
-            style="mask-type:luminance"
-            maskUnits="userSpaceOnUse"
-            x="0"
-            y="0"
-            width="24"
-            height="24"
-          >
-            <path d="M24 0H0V24H24V0Z" fill="white" />
-          </mask>
-          <g mask="url(#mask0_1_2612)">
-            <path
-              d="M4 4H6V6H4V4Z"
-              stroke="black"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M4 18H6V20H4V18Z"
-              stroke="black"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M18 4H20V6H18V4Z"
-              stroke="black"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M18 11H20V13H18V11Z"
-              stroke="black"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M11 11H13V13H11V11Z"
-              stroke="black"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M4 11H6V13H4V11Z"
-              stroke="black"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M11 4H13V6H11V4Z"
-              stroke="black"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M11 18H13V20H11V18Z"
-              stroke="black"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M18 18H20V20H18V18Z"
-              stroke="black"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </g>
-        </g>
-      </g>
-      <defs>
-        <clipPath id="clip0_1_2612">
-          <rect width="24" height="24" fill="white" />
-        </clipPath>
-        <clipPath id="clip1_1_2612">
-          <rect width="24" height="24" fill="white" />
-        </clipPath>
-      </defs>
+      <path
+        d="M0.75 0.75H2.75V2.75H0.75V0.75Z"
+        stroke="black"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M0.75 14.75H2.75V16.75H0.75V14.75Z"
+        stroke="black"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M14.75 0.75H16.75V2.75H14.75V0.75Z"
+        stroke="black"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M14.75 7.75H16.75V9.75H14.75V7.75Z"
+        stroke="black"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M7.75 7.75H9.75V9.75H7.75V7.75Z"
+        stroke="black"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M0.75 7.75H2.75V9.75H0.75V7.75Z"
+        stroke="black"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M7.75 0.75H9.75V2.75H7.75V0.75Z"
+        stroke="black"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M7.75 14.75H9.75V16.75H7.75V14.75Z"
+        stroke="black"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M14.75 14.75H16.75V16.75H14.75V14.75Z"
+        stroke="black"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
     </svg>
   ),
   star: (
@@ -652,6 +627,32 @@ export const hero_icon = {
         d="M13.3566 4.84957C13.2689 4.5784 13.0284 4.38581 12.7438 4.36016L8.87869 4.00921L7.35031 0.431879C7.23761 0.169707 6.98096 0 6.6958 0C6.41064 0 6.15398 0.169707 6.04129 0.432492L4.51291 4.00921L0.647152 4.36016C0.363115 4.38642 0.123217 4.5784 0.0350431 4.84957C-0.0531308 5.12073 0.0282998 5.41815 0.243166 5.60563L3.16476 8.16789L2.30325 11.9629C2.24021 12.2419 2.34851 12.5303 2.58003 12.6977C2.70447 12.7876 2.85007 12.8334 2.99689 12.8334C3.12348 12.8334 3.24905 12.7992 3.36174 12.7318L6.6958 10.7392L10.0286 12.7318C10.2725 12.8785 10.5799 12.8651 10.811 12.6977C11.0426 12.5298 11.1508 12.2413 11.0877 11.9629L10.2262 8.16789L13.1478 5.60614C13.3627 5.41815 13.4447 5.12124 13.3566 4.84957Z"
         fill="black"
       />
+    </svg>
+  ),
+  yellowstar: (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="10"
+      height="10"
+      viewBox="0 0 12 12"
+      fill="none"
+    >
+      <g clip-path="url(#clip0_1_2152)">
+        <g clip-path="url(#clip1_1_2152)">
+          <path
+            d="M11.4485 4.58597C11.3733 4.35354 11.1672 4.18846 10.9233 4.16648L7.6103 3.86566L6.30026 0.799381C6.20367 0.574662 5.98368 0.429199 5.73925 0.429199C5.49483 0.429199 5.27484 0.574662 5.17825 0.799906L3.86821 3.86566L0.554701 4.16648C0.311242 4.18899 0.105615 4.35354 0.0300369 4.58597C-0.0455407 4.81839 0.0242569 5.07332 0.208428 5.23403L2.71265 7.43024L1.97421 10.6831C1.92018 10.9222 2.01301 11.1695 2.21145 11.3129C2.31812 11.39 2.44292 11.4292 2.56876 11.4292C2.67727 11.4292 2.7849 11.3999 2.88149 11.3421L5.73925 9.63417L8.59597 11.3421C8.80501 11.4679 9.06852 11.4564 9.26653 11.3129C9.46506 11.169 9.55781 10.9217 9.50377 10.6831L8.76534 7.43024L11.2696 5.23446C11.4537 5.07332 11.524 4.81883 11.4485 4.58597Z"
+            fill="#FFC700"
+          />
+        </g>
+      </g>
+      <defs>
+        <clipPath id="clip0_1_2152">
+          <rect width="12" height="12" fill="white" />
+        </clipPath>
+        <clipPath id="clip1_1_2152">
+          <rect width="12" height="12" fill="white" />
+        </clipPath>
+      </defs>
     </svg>
   ),
 };

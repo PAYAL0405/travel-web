@@ -3,7 +3,8 @@ import React, { useState } from "react";
 import { hero_icon } from "../icon";
 
 const Navbar = ({ open }) => {
-  const { coconuttree, downwordarrow, world, light, menu, menu2 } = hero_icon;
+  const { coconuttree, downwordarrow, world, light, menu, menu2, blackdotes } =
+    hero_icon;
   const [isShow, setIsShow] = useState(false);
 
   return (
@@ -103,11 +104,12 @@ const Navbar = ({ open }) => {
         <div className="bg-[#F2F4F6] rounded-3xl px-3 py-2">
           <span>{light}</span>
         </div>
-        <div className="border border-[#E4E6E8] rounded-3xl px-3 py-2">
+        <button className="border border-[#E4E6E8] rounded-3xl px-3 py-2">
           <h6 className="text-[#000000] text-[13px] tracking-wider font-semibold">
             Signin
           </h6>
-        </div>{" "}
+        </button>
+        <div className="p-2 bg-[#FEFA17] rounded-sm ">{blackdotes}</div>
       </div>
 
       {/* Menu Button  */}
