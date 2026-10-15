@@ -3,6 +3,7 @@ import { useRef } from "react";
 import React from "react";
 import { hero_icon } from "../icon";
 import CarsCard from "./CarsCard";
+import CarCategoriesCard from "./CarCategoriesCard";
 
 const RecentLaunchedCar = () => {
   const sliderRef = useRef(null);
@@ -34,7 +35,7 @@ const RecentLaunchedCar = () => {
             Recent Launched Car
           </h1>
           <h6 className="text-xs md:text-sm 2xl:text-[16px] font-extralight text-[#737373]">
-            The world's leading car brands
+            The worlds leading car brands
           </h6>
         </div>
         <div className="flex flex-row items-center gap-2 pt-1 md:pt-2">
@@ -44,7 +45,6 @@ const RecentLaunchedCar = () => {
           >
             <span className="text-black">{leftwordarrow}</span>
           </button>
-
           <button
             onClick={handleNext}
             className="flex items-center justify-center rounded-full p-1 bg-[#E4E6E8] w-[32px] h-[32px]"
@@ -57,9 +57,17 @@ const RecentLaunchedCar = () => {
         ref={sliderRef}
         className="w-full flex flex-row gap-4 overflow-x-auto scroll-smooth scrollbar-hide py-9 pl-6 pr-6 2xl:pl-[17%]"
       >
-        <div className="">
-          <CarsCard />
+        <div className="flex flex-row gap-4 ">
+          <CarsCard carimg="/img/cars-sec-img/car.png.png" />
+          <CarsCard carimg="/img/cars-sec-img/car2.png.png" />
+          <CarsCard carimg="/img/cars-sec-img/car3.png.png" />
+          <CarsCard carimg="/img/cars-sec-img/car.png.png" />
+          <CarsCard carimg="/img/cars-sec-img/car2.png.png" />
+          <CarsCard carimg="/img/cars-sec-img/car3.png.png" />
         </div>
+      </div>
+      <div className="">
+        <CarCategoriesCard />
       </div>
     </div>
   );

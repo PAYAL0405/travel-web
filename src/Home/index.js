@@ -24,6 +24,7 @@ const HomeMain = () => {
       <Hero />
       <div className=" flex flex-col gap-5 justify-center items-center  ">
         <Heading />
+
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-3 2xl:gap-5 justify-center items-center w-full lg:w-[90%] xl:w-[66%] px-6 md:px-9 lg:px-0 xl:px-0">
           <ServiceCard
             images="img/service-card-img-1.png"

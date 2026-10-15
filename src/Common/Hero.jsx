@@ -3,8 +3,15 @@ import React, { useState } from "react";
 import { hero_icon } from "../icon";
 
 const Hero = () => {
-  const { leftwordarrow, rightwordarrow, profile, location, dower, search } =
-    hero_icon;
+  const {
+    leftwordarrow,
+    rightwordarrow,
+    profile,
+    location,
+    dower,
+    search,
+    celender2,
+  } = hero_icon;
 
   const [currentBg, setCurrentBg] = useState(0);
 
@@ -87,7 +94,7 @@ const Hero = () => {
               </p>
 
               {/* ================= ARROWS ================= */}
-              <div className="flex items-center gap-2 mt-10 sm:mt-12 md:mt-20">
+              <div className="flex items-center gap-2 mt-10 sm:mt-12 md:mt-1">
                 <button
                   className="bg-[#fff] rounded-full p-2"
                   onClick={() => {
@@ -227,7 +234,7 @@ const Hero = () => {
               </p>
 
               <div className="flex items-center gap-2">
-                <span className="text-gray-400">{location}</span>
+                <span className="text-gray-400">{celender2}</span>
 
                 <span className="text-[11px] font-semibold text-[#000]">
                   02 January 2024
@@ -244,7 +251,7 @@ const Hero = () => {
               </p>
 
               <div className="flex items-center gap-2">
-                <span className="text-gray-400">{location}</span>
+                <span className="text-gray-400">{celender2}</span>
 
                 <span className="text-[11px] font-semibold text-[#000]">
                   02 January 2024

@@ -2,10 +2,9 @@
 import React, { useState } from "react";
 import { hero_icon } from "../icon";
 
-const Navbar = ({ open }) => {
-  const { coconuttree, downwordarrow, world, light, menu, menu2, blackdotes } =
+const Navbar = () => {
+  const { coconuttree, downwordarrow, world, light, menu2, blackdotes } =
     hero_icon;
-  const [isShow, setIsShow] = useState(false);
 
   return (
     <div className="w-[95%] flex flex-row items-center justify-between mx-auto ">
@@ -38,7 +37,7 @@ const Navbar = ({ open }) => {
             Tours
           </h6>
           <span>{downwordarrow}</span>
-        </div>{" "}
+        </div>
         <div className="flex flex-row gap-1 2xl:gap-2 items-center">
           <h6 className="text-[10px] 2xl:text-[11.8px] text-[#000000] tracking-wide">
             Destinations
@@ -73,7 +72,7 @@ const Navbar = ({ open }) => {
           <h6 className="text-[10px] 2xl:text-[11.8px] text-[#000000] tracking-wide">
             Pages
           </h6>
-          <span>{downwordarrow}</span>
+          <span>{downwordarrow} </span>
         </div>{" "}
         <div className="flex flex-row gap-1 2xl:gap-2 items-center">
           <h6 className="text-[10px] 2xl:text-[11.8px] text-[#000000] tracking-wide">
@@ -110,16 +109,6 @@ const Navbar = ({ open }) => {
           </h6>
         </button>
         <div className="p-2 bg-[#FEFA17] rounded-sm ">{blackdotes}</div>
-      </div>
-
-      {/* Menu Button  */}
-      <div className="rounded-md p-1 w-full fixed  flex justify-end">
-        {/* {isShow && (
-          <button
-            onClick={() => setIsShow(!isShow)}
-            className="text-white rounded-sm bg-black border border-black h-10 w-10 p-4"
-          ></button>
-        )} */}
       </div>
     </div>
   );

@@ -126,6 +126,7 @@ const Features = () => {
     lg:gap-x-4
     xl:gap-x-6
     2xl:gap-x-6
+    pb-20
   "
         >
           {/* PayPal */}

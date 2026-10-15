@@ -10,8 +10,8 @@ export const hero_icon = {
       <path
         d="M0.75 8.75007L5.41667 0.750069V6.08341H8.75L4.08333 14.0834V8.75007H0.75Z"
         stroke="white"
-        stroke-width="1.5"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinejoin="round"
       />
     </svg>
   ),
@@ -26,9 +26,9 @@ export const hero_icon = {
       <path
         d="M5.41667 0.75L10.0834 5.41667L5.41667 10.0834M10.0834 5.41667H0.75"
         stroke="white"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   ),
@@ -64,7 +64,7 @@ export const hero_icon = {
       viewBox="0 0 10 10"
       fill="none"
     >
-      <g clip-path="url(#clip0_1_2493)">
+      <g clipPath="url(#clip0_1_2493)">
         <g mask="url(#mask0_1_2493)">
           <path
             d="M9.8694 2.52953C9.6889 2.33809 9.38702 2.33096 9.19653 2.51095L4.99976 6.48676L0.80347 2.51097C0.61298 2.33049 0.311545 2.33811 0.130592 2.52955C-0.0503608 2.7205 -0.0422747 3.02194 0.148697 3.20289L4.67261 7.48871C4.76404 7.57539 4.88214 7.61919 4.99976 7.61919C5.11737 7.61919 5.23594 7.57539 5.32738 7.48871L9.8513 3.20289C10.0423 3.02192 10.0504 2.7205 9.8694 2.52953Z"
@@ -109,56 +109,56 @@ export const hero_icon = {
       <path
         d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
         stroke="black"
-        stroke-width="1.5"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinejoin="round"
       />
       <path
         d="M20 12H21"
         stroke="black"
-        stroke-width="1.5"
-        stroke-linecap="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
       />
       <path
         d="M3 12H4"
         stroke="black"
-        stroke-width="1.5"
-        stroke-linecap="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
       />
       <path
         d="M12 20V21"
         stroke="black"
-        stroke-width="1.5"
-        stroke-linecap="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
       />
       <path
         d="M12 3V4"
         stroke="black"
-        stroke-width="1.5"
-        stroke-linecap="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
       />
       <path
         d="M17.6567 17.6567L18.3638 18.3638"
         stroke="black"
-        stroke-width="1.5"
-        stroke-linecap="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
       />
       <path
         d="M5.63599 5.63599L6.34309 6.34309"
         stroke="black"
-        stroke-width="1.5"
-        stroke-linecap="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
       />
       <path
         d="M6.34334 17.6567L5.63623 18.3638"
         stroke="black"
-        stroke-width="1.5"
-        stroke-linecap="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
       />
       <path
         d="M18.3641 5.63599L17.657 6.34309"
         stroke="black"
-        stroke-width="1.5"
-        stroke-linecap="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
       />
     </svg>
   ),
@@ -170,71 +170,71 @@ export const hero_icon = {
       viewBox="0 0 24 24"
       fill="none"
     >
-      <g clip-path="url(#clip0_1_2612)">
-        <g clip-path="url(#clip1_1_2612)">
+      <g clipPath="url(#clip0_1_2612)">
+        <g clipPath="url(#clip1_1_2612)">
           <g mask="url(#mask0_1_2612)">
             <path
               d="M4 4H6V6H4V4Z"
               stroke="black"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M4 18H6V20H4V18Z"
               stroke="black"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M18 4H20V6H18V4Z"
               stroke="black"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M18 11H20V13H18V11Z"
               stroke="black"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M11 11H13V13H11V11Z"
               stroke="black"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M4 11H6V13H4V11Z"
               stroke="black"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M11 4H13V6H11V4Z"
               stroke="black"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M11 18H13V20H11V18Z"
               stroke="black"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M18 18H20V20H18V18Z"
               stroke="black"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </g>
         </g>
@@ -260,8 +260,8 @@ export const hero_icon = {
       <path
         d="M7.99992 12.6666L3.33325 7.99992L7.99992 3.33325M3.33325 7.99992H12.6666"
         stroke="black"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokelinecap="round"
+        strokelinejoin="round"
       />
     </svg>
   ),
@@ -276,8 +276,8 @@ export const hero_icon = {
       <path
         d="M7.99992 3.33325L12.6666 7.99992L7.99992 12.6666M12.6666 7.99992H3.33325"
         stroke="black"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   ),
@@ -320,9 +320,9 @@ export const hero_icon = {
       <path
         d="M19 19L14.6569 14.6569M14.6569 14.6569C16.1046 13.2091 17 11.2091 17 9C17 4.58172 13.4183 1 9 1C4.58172 1 1 4.58172 1 9C1 13.4183 4.58172 17 9 17C11.2091 17 13.2091 16.1046 14.6569 14.6569Z"
         stroke="white"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   ),
@@ -337,9 +337,9 @@ export const hero_icon = {
       <path
         d="M19 19L14.6569 14.6569M14.6569 14.6569C16.1046 13.2091 17 11.2091 17 9C17 4.58172 13.4183 1 9 1C4.58172 1 1 4.58172 1 9C1 13.4183 4.58172 17 9 17C11.2091 17 13.2091 16.1046 14.6569 14.6569Z"
         stroke="white"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   ),
@@ -351,13 +351,13 @@ export const hero_icon = {
       viewBox="0 0 14 10"
       fill="none"
     >
-      <g clip-path="url(#clip0_1_1311)">
+      <g clipPath="url(#clip0_1_1311)">
         <path
           d="M2 2.5L7 7.5L12 2.5"
           stroke="black"
-          stroke-width="1.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
       <defs>
@@ -376,7 +376,7 @@ export const hero_icon = {
     <svg
       stroke="currentColor"
       fill="currentColor"
-      stroke-width="0"
+      strokeWidth="0"
       viewBox="0 0 24 24"
       height="1em"
       width="1em"
@@ -410,9 +410,9 @@ export const hero_icon = {
       <path
         d="M7.75 0.75L14.75 7.75L7.75 14.75M14.75 7.75H0.75"
         stroke="black"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   ),
@@ -463,9 +463,9 @@ export const hero_icon = {
       <path
         d="M16.3566 9.28551L10.6997 14.9424C9.91875 15.7234 8.65237 15.7234 7.87133 14.9424L2.21447 9.28551C0.261845 7.33291 0.261845 4.16709 2.21447 2.21447C4.16709 0.261842 7.33292 0.261842 9.28554 2.21447C11.2381 0.261842 14.4039 0.261842 16.3566 2.21447C18.3092 4.16709 18.3092 7.33291 16.3566 9.28551Z"
         stroke="black"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   ),
@@ -480,16 +480,16 @@ export const hero_icon = {
       <path
         d="M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z"
         stroke="#8E8E8E"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M7.33325 5.33301V8.66635H10.6666"
         stroke="#8E8E8E"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   ),
@@ -518,27 +518,27 @@ export const hero_icon = {
       <path
         d="M6.75 12.75C10.0637 12.75 12.75 10.0637 12.75 6.75C12.75 3.43629 10.0637 0.75 6.75 0.75C3.43629 0.75 0.75 3.43629 0.75 6.75C0.75 7.74175 0.99062 8.67731 1.41667 9.5015L0.75 12.75L3.99853 12.0833C4.82269 12.5094 5.75825 12.75 6.75 12.75Z"
         stroke="#8E8E8E"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M3.75667 6.75H3.75V6.75667H3.75667V6.75Z"
         stroke="#8E8E8E"
-        stroke-width="2.25"
-        stroke-linejoin="round"
+        strokeWidth="2.25"
+        strokeLinejoin="round"
       />
       <path
         d="M6.75667 6.75H6.75V6.75667H6.75667V6.75Z"
         stroke="#8E8E8E"
-        stroke-width="2.25"
-        stroke-linejoin="round"
+        strokeWidth="2.25"
+        strokeLinejoin="round"
       />
       <path
         d="M9.75667 6.75H9.75V6.75667H9.75667V6.75Z"
         stroke="#8E8E8E"
-        stroke-width="2.25"
-        stroke-linejoin="round"
+        strokeWidth="2.25"
+        strokeLinejoin="round"
       />
     </svg>
   ),
@@ -553,65 +553,65 @@ export const hero_icon = {
       <path
         d="M0.75 0.75H2.75V2.75H0.75V0.75Z"
         stroke="black"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M0.75 14.75H2.75V16.75H0.75V14.75Z"
         stroke="black"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M14.75 0.75H16.75V2.75H14.75V0.75Z"
         stroke="black"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M14.75 7.75H16.75V9.75H14.75V7.75Z"
         stroke="black"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M7.75 7.75H9.75V9.75H7.75V7.75Z"
         stroke="black"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M0.75 7.75H2.75V9.75H0.75V7.75Z"
         stroke="black"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M7.75 0.75H9.75V2.75H7.75V0.75Z"
         stroke="black"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M7.75 14.75H9.75V16.75H7.75V14.75Z"
         stroke="black"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M14.75 14.75H16.75V16.75H14.75V14.75Z"
         stroke="black"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   ),
@@ -637,8 +637,8 @@ export const hero_icon = {
       viewBox="0 0 12 12"
       fill="none"
     >
-      <g clip-path="url(#clip0_1_2152)">
-        <g clip-path="url(#clip1_1_2152)">
+      <g clipPath="url(#clip0_1_2152)">
+        <g clipPath="url(#clip1_1_2152)">
           <path
             d="M11.4485 4.58597C11.3733 4.35354 11.1672 4.18846 10.9233 4.16648L7.6103 3.86566L6.30026 0.799381C6.20367 0.574662 5.98368 0.429199 5.73925 0.429199C5.49483 0.429199 5.27484 0.574662 5.17825 0.799906L3.86821 3.86566L0.554701 4.16648C0.311242 4.18899 0.105615 4.35354 0.0300369 4.58597C-0.0455407 4.81839 0.0242569 5.07332 0.208428 5.23403L2.71265 7.43024L1.97421 10.6831C1.92018 10.9222 2.01301 11.1695 2.21145 11.3129C2.31812 11.39 2.44292 11.4292 2.56876 11.4292C2.67727 11.4292 2.7849 11.3999 2.88149 11.3421L5.73925 9.63417L8.59597 11.3421C8.80501 11.4679 9.06852 11.4564 9.26653 11.3129C9.46506 11.169 9.55781 10.9217 9.50377 10.6831L8.76534 7.43024L11.2696 5.23446C11.4537 5.07332 11.524 4.81883 11.4485 4.58597Z"
             fill="#FFC700"
@@ -651,6 +651,66 @@ export const hero_icon = {
         </clipPath>
         <clipPath id="clip1_1_2152">
           <rect width="12" height="12" fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
+  ),
+  display: (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="9"
+      viewBox="0 0 20 9"
+      fill="none"
+    >
+      <path
+        d="M19.9044 8.18399C19.5084 6.15999 18.4964 4.268 17.0005 2.86L16.8244 3.036L14.3166 5.54399C15.1086 6.33599 15.6365 7.34799 15.9005 8.44799C15.9444 8.71199 16.2085 8.93199 16.5166 8.93199H19.2885C19.4644 8.93199 19.6845 8.84399 19.7724 8.71199C19.9044 8.57999 19.9485 8.40399 19.9044 8.18399ZM10.4005 0.0440001V3.784C11.5884 3.872 12.7326 4.312 13.6566 5.01599L16.3405 2.332C14.6684 0.924 12.5566 0.132 10.4005 0.0440001ZM3.0965 3.08L2.9205 2.86C1.4245 4.312 0.4125 6.20399 0.0165 8.18399C-0.0275 8.35999 0.0165001 8.57999 0.1485 8.71199C0.2805 8.84399 0.4565 8.93199 0.6325 8.93199H3.4045C3.7125 8.93199 3.9765 8.71199 4.0205 8.44799C4.2845 7.34799 4.8125 6.33599 5.6045 5.54399L3.0965 3.08ZM3.5805 2.288L6.2645 4.972C6.2645 4.972 6.3085 4.928 6.3525 4.928C6.3525 4.664 6.3965 4.444 6.5725 4.268C6.7925 4.004 7.1005 3.828 7.4525 3.828C7.6725 3.828 7.8925 3.916 8.1125 4.048C8.5965 3.872 9.08055 3.784 9.56455 3.74V0C7.3645 0.132 5.2525 0.924 3.5805 2.288Z"
+        fill="#D6D7D8"
+      />
+    </svg>
+  ),
+  setting: (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="22"
+      height="22"
+      viewBox="0 0 22 22"
+      fill="none"
+    ></svg>
+  ),
+  seat: (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+    >
+      <g clipPath="url(#clip0_1_1916)">
+        <path
+          d="M20.3773 17.8542C20.0942 17.371 19.6426 17.0095 19.1092 16.8391L19.0443 16.8196C18.9663 16.7947 18.8858 16.7784 18.8043 16.771C18.3878 16.874 17.996 17.0586 17.6514 17.3141C17.3068 17.5697 17.0163 17.891 16.7967 18.2596L16.4854 22.7028C16.4367 22.7028 16.4594 22.7028 16.4854 22.7028L16.4594 23.3515H16.7059C19.907 23.3515 20.507 20.6401 20.5589 20.3645C20.8248 19.3558 20.7567 18.5093 20.3773 17.8542Z"
+          fill="#D6D7D8"
+        />
+        <path
+          d="M7.51447 22.7027L7.19015 18.2692C6.91447 18.0163 6.3015 16.8422 5.18258 16.7773C5.10139 16.787 5.02112 16.8033 4.94258 16.826H4.89718C4.35184 16.9916 3.88875 17.3563 3.59988 17.8476C3.21393 18.4963 3.15231 19.3492 3.41826 20.3579C3.47015 20.6303 4.06691 23.3449 7.27123 23.3449H7.51772L7.49177 22.6963C7.54042 22.7028 7.55988 22.7027 7.51447 22.7027Z"
+          fill="#D6D7D8"
+        />
+        <path
+          d="M9.51566 5.46193H10.1643V6.51923H9.06161V11.3257H14.9416V6.51923H13.8389V5.46193H14.4876C14.652 5.46198 14.8146 5.42739 14.9648 5.3604C15.115 5.29341 15.2494 5.19553 15.3593 5.07314C15.4691 4.95075 15.5519 4.8066 15.6023 4.65006C15.6528 4.49352 15.6696 4.32812 15.6519 4.16463L15.373 1.70301C15.3446 1.41286 15.2088 1.14382 14.9921 0.948767C14.7755 0.753714 14.4937 0.646769 14.2021 0.648959H9.79782C9.50737 0.647503 9.2268 0.754361 9.01091 0.948665C8.79501 1.14297 8.6593 1.41077 8.63025 1.69977L8.35134 4.16787C8.33357 4.33137 8.35044 4.49677 8.40086 4.6533C8.45128 4.80984 8.53411 4.954 8.64395 5.07639C8.7538 5.19878 8.8882 5.29665 9.03839 5.36364C9.18858 5.43063 9.3512 5.46522 9.51566 5.46517V5.46193ZM13.1903 6.51923H10.8097V5.46193H13.1903V6.51923Z"
+          fill="#D6D7D8"
+        />
+        <path
+          d="M18.6648 16.1382L18.7621 16.1155H18.8594H18.9275C18.668 14.5263 18.3307 11.9447 18.4831 9.89816C18.5549 9.48703 18.5428 9.06563 18.4475 8.65931C18.3522 8.25299 18.1757 7.87015 17.9286 7.53383C17.4258 6.91437 16.6313 6.56086 15.5902 6.51221V17.7955H8.40963V6.53167C7.36206 6.59005 6.57396 6.93383 6.07125 7.55329C5.82357 7.88937 5.64646 8.27209 5.55059 8.67842C5.45472 9.08475 5.44208 9.50627 5.51342 9.91762C5.66585 11.9641 5.32855 14.5458 5.06909 16.135C5.08419 16.1365 5.0994 16.1365 5.1145 16.135H5.17288H5.23125C6.40206 16.2031 7.10909 17.1079 7.50152 17.6074C7.54882 17.6749 7.59971 17.7399 7.65396 17.802L7.82585 17.9706L7.86152 18.2301V18.4571L8.20531 23.322H8.18585V23.3512H15.8075L15.8594 22.0539H15.8918L16.174 18.0582L16.2583 17.922C16.52 17.479 16.8678 17.093 17.2811 16.7866C17.6944 16.4803 18.1649 16.2598 18.6648 16.1382Z"
+          fill="#D6D7D8"
+        />
+        <path
+          d="M9.05835 11.9741H14.9416V17.1471H9.05835V11.9741Z"
+          fill="#D6D7D8"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_1_1916">
+          <rect width="24" height="24" fill="white" />
         </clipPath>
       </defs>
     </svg>
