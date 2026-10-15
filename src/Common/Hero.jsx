@@ -162,15 +162,7 @@ const Hero = () => {
               <img
                 src="/img/travling-img.png"
                 alt="Travel"
-                className="
-                w-full
-                h-[100px]
-                xl:h-[110px]
-                2xl:h-[125px]
-                object-cover
-                rounded-xl
-                border-3
-                border-white/80
+                className=" w-full h-[100px] xl:h-[110px] 2xl:h-[125px] object-cover rounded-xl border-3 border-white/80
               "
               />
             </div>
@@ -239,7 +231,6 @@ const Hero = () => {
                 <span className="text-[11px] font-semibold text-[#000]">
                   02 January 2024
                 </span>
-
                 <span className="">{dower}</span>
               </div>
             </div>
@@ -249,54 +240,28 @@ const Hero = () => {
               <p className="text-[10px] font-bold text-[#737373] mb-1">
                 Check Out
               </p>
-
               <div className="flex items-center gap-2">
                 <span className="text-gray-400">{celender2}</span>
-
                 <span className="text-[11px] font-semibold text-[#000]">
                   02 January 2024
                 </span>
-
                 <span className="">{dower}</span>
               </div>
             </div>
-
             {/* GUEST */}
             <div className="px-3 sm:px-4 py-3 ">
               <p className="text-[10px] font-bold text-[#737373] mb-1">Guest</p>
-
               <div className="flex items-center gap-2">
                 <span className="text-gray-400">{profile}</span>
-
                 <span className="text-[11px] font-semibold text-[#000]">
                   2 adults, 2 children
                 </span>
-
                 <span className="">{dower}</span>
               </div>
             </div>
-
             {/* SEARCH BUTTON */}
             <div className="px-3 sm:px-4 py-3">
-              <button
-                className="
-          w-full
-          lg:w-auto
-          bg-[#050505]
-          text-white
-          rounded-full
-          px-7
-          sm:px-6
-          py-3
-          flex
-          items-center
-          justify-center
-          gap-2
-          text-xs
-          sm:text-sm
-          whitespace-nowrap
-        "
-              >
+              <button className="w-full lg:w-auto bg-[#050505] text-white rounded-full px-7 sm:px-6 py-3 flex items-center justify-center gap-2 text-xs sm:text-sm whitespace-nowrap ">
                 <span>{search}</span>
                 <span>Search</span>
               </button>
